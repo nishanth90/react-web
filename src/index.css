@@ -13,7 +13,13 @@ code {
     monospace;
 }
 
-.results-bar-div {
-  display: flex;
-  justify-content: center;
+.display-linebreak {
+  white-space: pre-line;
+  text-align: center;
+  font-size: 35px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: 'Bebas Neue';
 }
+
+
