@@ -4,6 +4,7 @@ import './App.css';
 import Particles from 'react-particles-js';
 import GoogleFonts from './GoogleFonts';
 import { FaCloudversify } from 'react-icons/fa';
+import ReactTitle from './TitleAnimation';
 
 
 const particleOpt = {
@@ -18,23 +19,26 @@ const particleOpt = {
             }
 }
 
+const titleStyle= {
+  display: 'flex',
+  alignItems: 'center'
+}
+
 class App extends Component{
 
 render(){
 
   return (
-
-    <div> 
-      <GoogleFonts />
-      <h1 type="text" style={{color: '#F9E915', textAlign: 'center', fontFamily:'Bebas Neue', fontSize:'81px'}} >EDGECODERS  SOFTWARE  LABS</h1>
-
-      
-      <Particles 
-              params={particleOpt}
-      />
-      <FaCloudversify />
-    </div>
-
+    <section>
+      <div style = {{'width': '450px', 'margin': '0 auto'}} > 
+        <GoogleFonts />
+        <ReactTitle  />
+        
+        <Particles 
+                params={particleOpt}
+        />
+      </div>
+    </section>
     );
 
 }
