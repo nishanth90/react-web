@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -18,6 +17,12 @@ code {
   text-align: center;
   font-size: 35px;
   margin: 0 auto;
+  color: #ffffff;
+  font-family: 'Bebas Neue';
+}
+
+.rowC{display:flex; flex-direction:row;  white-space: pre-line;
+  font-size: 35px;
   color: #ffffff;
   font-family: 'Bebas Neue';
 }
